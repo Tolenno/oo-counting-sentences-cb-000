@@ -3,7 +3,6 @@ require 'pry'
 class String
 
   def sentence?
-    #return true if self end_with?(".,!,?"), and false if not.
     self.end_with?(".","!","?")
   end
 
